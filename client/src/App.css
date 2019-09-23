@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   letter-spacing: 0.05rem;
+  box-sizing: border-box;
 }
 
 .App {
@@ -36,8 +37,8 @@ a, .link {
 }
 
 .main {
-  margin-top: 22vh;
-  height: 73vh;
+  margin-top: 10vh;
+  height: 85vh;
   overflow: scroll;
   display: flex;
   flex-direction: column;
