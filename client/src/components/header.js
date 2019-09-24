@@ -7,7 +7,6 @@ import { faCartPlus, faSearch, faEllipsisV } from '@fortawesome/free-solid-svg-i
 function Header(props) {
   return (
     <div className="header">
-
         <img className="header-logo" src={require("../assets/logo.png")}/>
 
         <div className="web-input">
