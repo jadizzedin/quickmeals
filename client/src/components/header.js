@@ -11,8 +11,19 @@ function Header(props) {
         <img className="header-logo" src={require("../assets/pan-logo.png")}/>
 
         <div className="web-input">
-          <input className="input"  type="text" placeholder="Keywords" />
-          <button type="text" placeholder="Filter">Filter</button>
+          <input
+            className="input"
+            type="text" placeholder="Keywords"
+            className="input"
+            type="text"
+            placeholder="Keywords"
+            onChange={(e) => props.handleChange(e)}/>
+          <button
+            placeholder="Filter"
+            id="filter"
+            type="text"
+            onClick={(e) => props.handleFilter(e)}>Filter
+          </button>
         </div>
 
         <div className="iconic">
@@ -20,7 +31,8 @@ function Header(props) {
             className="icon"
             icon={faSearch}
             color={'black'}
-            size={'2x'}/>
+            size={'2x'}
+            onClick={(e) => props.handleFilter(e)}/>
           <FontAwesomeIcon
             className="icon"
             icon={faCartPlus}
@@ -31,19 +43,6 @@ function Header(props) {
             icon={faEllipsisV}
             color={'black'}
             size={'2x'}/>
-          <input
-            className="input"
-            type="text"
-            placeholder="Keywords"
-            onChange={(e) => props.handleChange(e)}
-            />
-          <button
-            className="input"
-            id="filter"
-            type="text"
-            placeholder="Filter"
-            onClick={(e) => props.handleFilter(e)}
-            />
         </div>
 
         <div className="right-side">
