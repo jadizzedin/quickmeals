@@ -11,7 +11,7 @@ function Card(props) {
   return (
     <div className="card">
       <div className= "images" style={background} />
-      <h1>{props.data.title}</h1>
+      <h2>{props.data.title}</h2>
       <p>{props.data.description}</p>
     </div>
   )
