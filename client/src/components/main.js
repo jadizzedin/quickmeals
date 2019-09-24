@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './card';
 import './components.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 function Main(props) {
 
@@ -17,12 +17,12 @@ function Main(props) {
     <div className="main">
       <div className="banner">
         <FontAwesomeIcon
-          className="icon"
+          className="banner-icon"
           icon={faChevronLeft}
           color={'white'}
           size={'5x'}/>
         <FontAwesomeIcon
-          className="icon"
+          className="banner-icon"
           icon={faChevronRight}
           color={'white'}
           size={'5x'}/>

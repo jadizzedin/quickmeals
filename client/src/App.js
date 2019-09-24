@@ -5,13 +5,10 @@ import Header from './components/header';
 import Footer from './components/footer';
 import data from './assets/data';
 
-
-
-
 class App extends React.Component {
   state = {
     cardData: [],
-    activeFilter: true,
+    activeFilter: false,
     search: ''
   }
 
