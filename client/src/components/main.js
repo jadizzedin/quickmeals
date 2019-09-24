@@ -1,17 +1,35 @@
 import React from 'react';
-import Div from './div';
+import Card from './card';
 import './components.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 function Main(props) {
+
+  const cards = props.cardData.map((card, id) => {
+    return <Card
+      key={id}
+      data={card}
+    />
+  });
+
   return (
     <div className="main">
-      <h1> MAIN </h1>
-      <div className="div-container">
-        <Div />
-        <Div />
-        <Div />
-        <Div />
-        <Div />
+      <div className="banner">
+        <FontAwesomeIcon
+          className="icon"
+          icon={faChevronLeft}
+          color={'white'}
+          size={'5x'}/>
+        <FontAwesomeIcon
+          className="icon"
+          icon={faChevronRight}
+          color={'white'}
+          size={'5x'}/>
+      </div>
+        <h1>Meal prep made easy!</h1>
+      <div className="card-container">
+      {cards}
       </div>
     </div>
   );
