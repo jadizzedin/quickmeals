@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css'
+import Filter from "./filter";
 
 
 function Header(props) {
@@ -22,6 +23,9 @@ function Header(props) {
             placeholder="Filter"
             onClick={(e) => props.handleFilter(e)}
             />
+          <Filter
+            activeFilter={props.activeFilter}
+          />
         </div>
 
         <div className="right-side">
