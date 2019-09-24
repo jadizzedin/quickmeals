@@ -13,7 +13,7 @@ class App extends React.Component {
   state = {
     cardData: [],
     activeFilter: true,
-    search: ''
+    search: '',
   }
 
   handleChange = async (e) => {
@@ -48,6 +48,7 @@ class App extends React.Component {
             activeFilter={this.state.activeFilter}
           />
           <Main
+            onHeartClick={this.onHeartClick}
             cardData={this.state.cardData}
           />
           <Footer />

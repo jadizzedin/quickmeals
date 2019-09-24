@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from 'react';
 import './components.css';
+import HeartCheckbox from 'react-heart-checkbox';
 
 function Card(props) {
+
+  const [checked, setChecked] = useState(false)
 
   const background = {
     backgroundImage : `url(${process.env.PUBLIC_URL + props.data.image_url})`,
@@ -13,6 +16,10 @@ function Card(props) {
       <div className= "images" style={background} />
       <h2>{props.data.title}</h2>
       <p>{props.data.description}</p>
+      <HeartCheckbox
+        checked={checked}
+        onClick={() => setChecked(!checked)}
+      />
     </div>
   )
 }

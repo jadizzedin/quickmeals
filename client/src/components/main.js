@@ -10,6 +10,8 @@ function Main(props) {
     return <Card
       key={id}
       data={card}
+      checked={props.checked}
+      onHeartClick={props.onHeartClick}
     />
   });
 
