@@ -9,8 +9,19 @@ function Header(props) {
         <img className="header-logo"  src="assets/xxxx"/>
 
         <div className="web-input">
-          <input className="input"  type="text" placeholder="Keywords" />
-          <button className="input"  id="filter" type="text" placeholder="Filter"/>
+          <input
+            className="input"
+            type="text"
+            placeholder="Keywords"
+            onChange={(e) => props.handleChange(e)}
+            />
+          <button
+            className="input"
+            id="filter"
+            type="text"
+            placeholder="Filter"
+            onClick={(e) => props.handleFilter(e)}
+            />
         </div>
 
         <div className="right-side">
