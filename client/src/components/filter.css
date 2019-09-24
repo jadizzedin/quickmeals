@@ -1,0 +1,18 @@
+.active {
+  z-index: 5;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: grey;
+  position: absolute;
+  left: 55%;
+}
+
+.inactive {
+  display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+}
