@@ -5,7 +5,7 @@ const data = [
     description : "Viverra a lectus sed sit morbu in et consectetur risus viverra a lectus sed sit morbi in et tetur risus",
   },
   {
-    image_url : "./images/butterSquashSoup.jpg",
+    image_url : "./images/butternutSquashSoup.jpg",
     title : "Butternut Squash Soup",
     description : "Viverra a lectus sed sit morbu in et consectetur risus viverra a lectus sed sit morbi in et tetur risus",
   },
@@ -18,11 +18,6 @@ const data = [
     image_url : "./images/grilledCorn.jpg",
     title : "Roasted Corn",
     description : "Viverra a lectus sed sit morbu in et consectetur risus viverra a lectus sed sit morbi in et tetur risus",
-  },
-  {
-  image_url : "./images/grilledCorn.jpg",
-  title : "Grilled Corn",
-  description : "Viverra a lectus sed sit morbu in et consectetur risus viverra a lectus sed sit morbi in et tetur risus",
   },
   {
   image_url : "./images/mSalad.jpg",
