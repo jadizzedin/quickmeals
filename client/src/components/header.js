@@ -19,6 +19,7 @@ function Header(props) {
             placeholder="Keywords"
             onChange={(e) => props.handleChange(e)}/>
           <button
+            className='filter-button'
             placeholder="Filter"
             id="filter"
             type="text"

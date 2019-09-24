@@ -21,14 +21,12 @@
   height: 65px;
   width: 58px;
 }
-
-
 .web-input{
   display: flex;
-  margin: 10px 10px 5px 0px;
+  margin: 10px;
   justify-content: space-between;
+  align-items: center;
 }
-
 .input{
   background-color: white;
   height:40px;
@@ -38,15 +36,15 @@
   outline: none;
 }
 
-button {
+.filter-button {
   background-color: rgb(237,60,103);
-  height:45px;
+  height:40px;
   width: 80px;
-  margin-left: 5px;
   border-radius: 10px;
   border: none;
   color: white;
   outline: none;
+  margin: 0 0 0 5px;
 }
 
 .right-side {
