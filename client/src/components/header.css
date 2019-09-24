@@ -1,60 +1,90 @@
 
 .header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
   padding: 2px  2px 0px 2px;
   background-color: rgb(142,174,192);
   text-decoration: none;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
   color: black;
 }
 
 
 .header-logo{
+  margin: 1px;
+  padding: 1px;
   align-self: flex-start;
-  width: 8%;
+  height: 65px;
+  width: 58px;
 }
 
 
 .web-input{
-  visibility:visible;
-  width: xx%;
+  display: flex;
+  margin: 10px 10px 5px 0px;
+  justify-content: space-between;
 }
 
 .input{
   background-color: white;
+  height:40px;
+  width: 300px;
 }
 
-#filter {
+button {
   background-color: rgb(237,60,103);
+  height:45px;
+  width: 80px;
+  margin-left: 5px;
 }
 
 .right-side {
+  display: flex;
   align-self: flex-end;
   width: auto;
   justify-content: space-between;
+  /* margin-right: 2px; */
+  margin: 10px 10px 5px 0px;
 }
 
-i{
-  visibility:hidden;
+.iconic {
+  display: none;
+  margin: 0px 10px;
+}
+
+.icon {
+  display: none;
+  margin: 10px 5px;
 }
 
 .element{
-  align-self: flex-end;
+  /* align-self: flex-end; */
+  margin-right: 5px;
 }
 
+
 @media screen and (max-width: 600px) {
-  .input {
-    visibility:hidden;
-  }
-  .element{
-    visibility:hidden;
+  .web-input {
+    display: none;
   }
 
-  i{
-    visibility:visible;
+  .right-side{
+    display: none;
+  }
+
+  .icon{
+    display: inline;
+  }
+
+  .iconic{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
   }
 }
