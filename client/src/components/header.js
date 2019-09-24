@@ -10,8 +10,6 @@ function Header(props) {
 
         <img className="header-logo" src={require("../assets/pan-logo.png")}/>
 
-
-
         <div className="web-input">
           <input className="input"  type="text" placeholder="Keywords" />
           <button type="text" placeholder="Filter">Filter</button>
