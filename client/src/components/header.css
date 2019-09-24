@@ -8,7 +8,7 @@
   background-color: rgb(142,174,192);
   text-decoration: none;
   font-family: "Roboto";
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   color: black;
 }
@@ -21,30 +21,30 @@
   height: 65px;
   width: 58px;
 }
+
+
 .web-input{
   display: flex;
-  margin: 10px;
+  margin: 10px 10px 5px 50px;
+  flex: 0 0 3;
   justify-content: space-between;
-  align-items: center;
+  font-size: 18px;
 }
+
 .input{
   background-color: white;
-  height:40px;
-  width: 300px;
-  border-radius: 10px;
-  border: none;
-  outline: none;
+  height:30px;
+  width: 450px;
+  border-radius: 8px;
 }
 
 .filter-button {
   background-color: rgb(237,60,103);
-  height:40px;
+  height:30px;
   width: 80px;
+  margin-left: 15px;
+  border: 1px solid rgb(237,60,103);
   border-radius: 10px;
-  border: none;
-  color: white;
-  outline: none;
-  margin: 0 0 0 5px;
 }
 
 .right-side {

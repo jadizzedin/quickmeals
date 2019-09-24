@@ -7,21 +7,16 @@ import { faCartPlus, faSearch, faEllipsisV } from '@fortawesome/free-solid-svg-i
 function Header(props) {
   return (
     <div className="header">
-
         <img className="header-logo" src={require("../assets/q-logo.png")}/>
-
         <div className="web-input">
           <input
             className="input"
-            type="text" placeholder="Keywords"
-            className="input"
-            type="text"
-            placeholder="Keywords"
+            type="text" placeholder="&nbsp;&nbsp; Keywords"
             onChange={(e) => props.handleChange(e)}/>
           <button
             className='filter-button'
             placeholder="Filter"
-            id="filter"
+            // id="filter"
             type="text"
             onClick={(e) => props.handleFilter(e)}>Filter
           </button>
