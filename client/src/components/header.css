@@ -33,6 +33,9 @@
   background-color: white;
   height:40px;
   width: 300px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
 button {
@@ -40,6 +43,10 @@ button {
   height:45px;
   width: 80px;
   margin-left: 5px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  outline: none;
 }
 
 .right-side {

@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './card';
 import './components.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 function Main(props) {
 
@@ -10,8 +10,6 @@ function Main(props) {
     return <Card
       key={id}
       data={card}
-      checked={props.checked}
-      onHeartClick={props.onHeartClick}
     />
   });
 

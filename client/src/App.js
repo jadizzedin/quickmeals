@@ -45,7 +45,6 @@ class App extends React.Component {
             activeFilter={this.state.activeFilter}
           />
           <Main
-            onHeartClick={this.onHeartClick}
             cardData={this.state.cardData}
           />
           <Footer />
