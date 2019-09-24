@@ -13,13 +13,15 @@ function Card(props) {
 
   return (
     <div className="card">
-      <div className= "images" style={background} />
+      <div className= "images" style={background}>
+        <HeartCheckbox
+          className="heart"
+          checked={checked}
+          onClick={() => setChecked(!checked)}
+        />
+      </div>
       <h2>{props.data.title}</h2>
       <p>{props.data.description}</p>
-      <HeartCheckbox
-        checked={checked}
-        onClick={() => setChecked(!checked)}
-      />
     </div>
   )
 }

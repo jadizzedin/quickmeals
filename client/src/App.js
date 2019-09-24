@@ -6,14 +6,11 @@ import Footer from './components/footer';
 import Filter from './components/filter';
 import data from './assets/data';
 
-
-
-
 class App extends React.Component {
   state = {
     cardData: [],
-    activeFilter: true,
-    search: '',
+    activeFilter: false,
+    search: ''
   }
 
   handleChange = async (e) => {

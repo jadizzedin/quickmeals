@@ -7,6 +7,9 @@
 .images {
  height: 60%;
  width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
 }
 .card-container {
   display: flex;
@@ -17,6 +20,9 @@
 }
 .inactive {
   display: none;
+}
+.heart{
+
 }
 p {
   font-size: 16px;
