@@ -33,6 +33,19 @@ function Header(props) {
             icon={faEllipsisV}
             color={'black'}
             size={'2x'}/>
+          <input
+            className="input"
+            type="text"
+            placeholder="Keywords"
+            onChange={(e) => props.handleChange(e)}
+            />
+          <button
+            className="input"
+            id="filter"
+            type="text"
+            placeholder="Filter"
+            onClick={(e) => props.handleFilter(e)}
+            />
         </div>
 
         <div className="right-side">
