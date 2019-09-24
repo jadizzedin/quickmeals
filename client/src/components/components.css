@@ -21,9 +21,6 @@
 .inactive {
   display: none;
 }
-.heart{
-
-}
 p {
   font-size: 16px;
   margin: 5px 0;
@@ -36,6 +33,9 @@ h2 {
 }
 .icon {
   display: none;
+}
+.card-icon {
+  margin: 5px;
 }
 
 @media screen and (min-width: 600px) {

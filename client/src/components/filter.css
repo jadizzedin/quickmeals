@@ -1,16 +1,79 @@
 .active {
   z-index: 5;
-  height: 35vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
-  width: 30%;
-  background-color: grey;
+  width: 300px;
+  background-color: rgb(226, 226, 226);
   position: absolute;
   left: 55%;
+  justify-content: space-around;
 }
 
 .inactive {
   display: none;
+}
+
+.content-container {
+  margin: 15% auto;
+}
+
+button {
+  height: 30px;
+  width: 70px;
+  background-color: white;
+  color: black;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.meal-text {
+  display: flex;
+  padding-left: 10px;
+  flex-direction: left;
+}
+
+.meal {
+  display: flex;
+  justify-content: center;
+}
+
+.cuisine-text {
+  display: flex;
+  flex-direction: left;
+  padding-left: 10px;
+}
+
+.cuisine {
+  display: flex;
+  justify-content: center;
+}
+
+.diet-rest {
+  display: flex;
+  justify-content: center;
+}
+
+.diet-rest-text {
+  display: flex;
+  flex-direction: left;
+  padding-left: 10px;
+}
+
+.apply {
+  display: flex;
+  justify-content: center;
+}
+
+.button, #apply {
+  height: 25px;
+  width: 100px;
+  background-color: rgb(237, 60, 103);
+  color: white;
+}
+
+p {
+  font-size: 20px; 
 }
 
 
