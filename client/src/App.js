@@ -3,7 +3,6 @@ import './App.css';
 import Main from './components/main';
 import Header from './components/header';
 import Footer from './components/footer';
-import Filter from './components/filter';
 import data from './assets/data';
 
 class App extends React.Component {
@@ -40,10 +39,9 @@ class App extends React.Component {
           <Header
             handleFilter={this.handleFilter}
             handleChange={this.handleChange}
-          />
-          <Filter
             activeFilter={this.state.activeFilter}
           />
+          
           <Main
             cardData={this.state.cardData}
           />

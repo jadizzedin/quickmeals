@@ -1,8 +1,8 @@
 import React from "react";
 import './header.css'
+import Filter from "./filter";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus, faSearch, faEllipsisV } from '@fortawesome/free-solid-svg-icons'
-
 
 function Header(props) {
   return (
@@ -22,8 +22,11 @@ function Header(props) {
             placeholder="Filter"
             id="filter"
             type="text"
-            onClick={(e) => props.handleFilter(e)}>Filter
-          </button>
+            onClick={(e) => props.handleFilter(e)}
+            />
+          <Filter
+            activeFilter={props.activeFilter}
+          />
         </div>
 
         <div className="iconic">
