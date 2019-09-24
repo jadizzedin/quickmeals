@@ -8,7 +8,7 @@ function Header(props) {
   return (
     <div className="header">
 
-        <img className="header-logo" src={require("../assets/pan-logo.png")}/>
+        <img className="header-logo" src={require("../assets/logo.png")}/>
 
         <div className="web-input">
           <input

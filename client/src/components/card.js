@@ -22,7 +22,7 @@ function Card(props) {
       {checked ? <FontAwesomeIcon
         className='card-icon'
         icon={fullHeart}
-        color={'red'}
+        color={'rgb(237,60,103)'}
         size={'2x'}
         onClick={() => setChecked(false)}/>
         :
@@ -40,7 +40,7 @@ function Card(props) {
           size={'2x'} />
       </div>
       <h2>{props.data.title}</h2>
-      <p>{props.data.description}</p>
+      <p className="card-description">{props.data.description}</p>
     </div>
   )
 }

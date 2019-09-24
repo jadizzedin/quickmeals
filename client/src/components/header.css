@@ -13,13 +13,8 @@
   color: black;
 }
 
-
 .header-logo{
-  margin: 1px;
-  padding: 1px;
-  align-self: flex-start;
-  height: 65px;
-  width: 58px;
+  top: 10px;
 }
 .web-input{
   display: flex;
