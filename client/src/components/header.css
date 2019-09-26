@@ -13,13 +13,8 @@
   color: black;
 }
 
-
 .header-logo{
-  margin: 1px;
-  padding: 1px;
-  align-self: flex-start;
-  height: 65px;
-  width: 58px;
+  top: 10px;
 }
 
 
@@ -73,7 +68,11 @@
 
 
 @media screen and (max-width: 600px) {
-  .web-input {
+  /* .web-input {
+    display: none;
+  } */
+
+  .input, .filter-button {
     display: none;
   }
 

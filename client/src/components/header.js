@@ -1,13 +1,14 @@
 import React from "react";
 import './header.css'
+import Filter from "./filter";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus, faSearch, faEllipsisV } from '@fortawesome/free-solid-svg-icons'
-
 
 function Header(props) {
   return (
     <div className="header">
-        <img className="header-logo" src={require("../assets/q-logo.png")}/>
+        <img className="header-logo" src={require("../assets/logo.png")}/>
+
         <div className="web-input">
           <input
             className="input"
@@ -18,8 +19,11 @@ function Header(props) {
             placeholder="Filter"
             // id="filter"
             type="text"
-            onClick={(e) => props.handleFilter(e)}>Filter
-          </button>
+            onClick={(e) => props.handleFilter(e)}
+            >Filter</button>
+          <Filter
+            activeFilter={props.activeFilter}
+          />
         </div>
 
         <div className="iconic">
