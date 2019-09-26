@@ -15,9 +15,9 @@
   display: none;
 }
 
-/* .content-container {
+.content-container {
   margin: 15% auto;
-} */
+}
 
 button {
   height: 30px;
@@ -80,4 +80,13 @@ p {
 
 
 @media screen and (min-width: 600px) {
+  .active {
+    z-index: 5;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 226, 226);
+    position: absolute;
+    justify-content: space-around;
+  }
 }
