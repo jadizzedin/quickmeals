@@ -68,7 +68,11 @@
 
 
 @media screen and (max-width: 600px) {
-  .web-input {
+  /* .web-input {
+    display: none;
+  } */
+
+  .input, .filter-button {
     display: none;
   }
 
