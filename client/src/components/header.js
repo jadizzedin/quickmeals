@@ -23,7 +23,7 @@ function Header(props) {
             id="filter"
             type="text"
             onClick={(e) => props.handleFilter(e)}
-            />
+            >Filter</button>
           <Filter
             activeFilter={props.activeFilter}
           />
