@@ -1,6 +1,6 @@
 .active {
   z-index: 5;
-  /* height: 300px; */
+  height: 290px;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -8,7 +8,7 @@
   position: absolute;
   justify-content: space-around;
   margin-left: 300px;
-  margin-top:210px;
+  margin-top: 188px;
 }
 
 .inactive {
@@ -16,7 +16,7 @@
 }
 
 .content-container {
-  margin: 15% auto;
+  margin: auto;
 }
 
 button {
@@ -30,7 +30,7 @@ button {
 
 .meal-text {
   display: flex;
-  padding-left: 20px;
+  padding-left: 10px;
   flex-direction: left;
 }
 
@@ -76,6 +76,8 @@ button {
 
 p {
   font-size: 20px; 
+  margin-top: 10px;
+  margin-bottom: auto;
 }
 
 
