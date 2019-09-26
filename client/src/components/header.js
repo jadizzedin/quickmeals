@@ -12,15 +12,12 @@ function Header(props) {
         <div className="web-input">
           <input
             className="input"
-            type="text" placeholder="Keywords"
-            className="input"
-            type="text"
-            placeholder="Keywords"
+            type="text" placeholder="&nbsp;&nbsp; Keywords"
             onChange={(e) => props.handleChange(e)}/>
           <button
             className='filter-button'
             placeholder="Filter"
-            id="filter"
+            // id="filter"
             type="text"
             onClick={(e) => props.handleFilter(e)}
             >Filter</button>
