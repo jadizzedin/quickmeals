@@ -5,10 +5,10 @@
   flex-direction: column;
   width: 300px;
   background-color: rgb(226, 226, 226);
-  position: absolute;
+  position: fixed;
   justify-content: space-around;
-  margin-left: 300px;
-  margin-top: 188px;
+  margin-left: 460px;
+  margin-top: 75px;
 }
 
 .inactive {
@@ -84,16 +84,18 @@ p {
 @media screen and (max-width: 600px) {
   .active {
     z-index: 2;
-    height: 100vh;
+    height: 75vh;
     width: 100vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(226, 226, 226);
-    position: fixed;
+    position: absolute;
     justify-content: space-around;
+    left: -450px;
+    top: -100px;
   }
 
   .content-container {
-    margin: auto;
+    margin: 0 auto;
   }
 }
