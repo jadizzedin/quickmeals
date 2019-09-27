@@ -25,9 +25,7 @@
   margin: 5px 0;
   font-size: 16px;
 }
-h1 {
-  margin: 20px;
-}
+
 h2 {
   margin: 5px 0;
 }
@@ -36,6 +34,15 @@ h2 {
 }
 .card-icon {
   margin: 5px;
+}
+.title {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 40px;
+  color: black;
+}
+.description{
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 600px) {

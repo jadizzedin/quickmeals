@@ -27,7 +27,8 @@ function Main(props) {
           color={'white'}
           size={'5x'}/>
       </div>
-        <h1>Meal prep made easy!</h1>
+        <h1 className='title'>Quickmeals</h1>
+        <h4 className='description'>Meal prep made easy!</h4>
       <div className="card-container">
       {cards}
       </div>
