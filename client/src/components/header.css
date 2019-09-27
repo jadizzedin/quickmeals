@@ -15,6 +15,19 @@
 
 .header-logo{
   top: 10px;
+  margin-left: 20px;
+}
+
+.input-wrapper {
+  height:30px;
+  width: 450px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  margin: 0 10px;
 }
 
 
@@ -24,6 +37,7 @@
   flex: 0 0 3;
   justify-content: space-between;
   font-size: 18px;
+  align-items: center;
 }
 
 .input{
@@ -31,6 +45,10 @@
   height:30px;
   width: 450px;
   border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding: 0;
 }
 
 .filter-button {
@@ -40,6 +58,8 @@
   margin-left: 15px;
   border: 1px solid rgb(237,60,103);
   border-radius: 10px;
+  color: white;
+  font-size: 16px;
 }
 
 .right-side {
@@ -54,6 +74,9 @@
 .iconic {
   display: none;
   margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
 }
 
 .icon {
@@ -73,6 +96,9 @@
   } */
 
   .input, .filter-button {
+    display: none;
+  }
+  .input-wrapper {
     display: none;
   }
 

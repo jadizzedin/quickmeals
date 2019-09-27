@@ -10,10 +10,17 @@ function Header(props) {
         <img className="header-logo" src={require("../assets/logo.png")}/>
 
         <div className="web-input">
-          <input
-            className="input"
-            type="text" placeholder="&nbsp;&nbsp; Keywords"
-            onChange={(e) => props.handleChange(e)}/>
+          <div className="input-wrapper">
+            <FontAwesomeIcon
+              className="search-icon"
+              icon={faSearch}
+              color={"black"}
+              size={'1x'}/>
+            <input
+              className="input"
+              type="text" placeholder="Keywords"
+              onChange={(e) => props.handleChange(e)}/>
+          </div>
           <button
             className='filter-button'
             placeholder="Filter"

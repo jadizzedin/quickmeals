@@ -1,5 +1,7 @@
 import React from "react";
 import './filter.css'
+import { faSearch} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Filter(props) {
 
@@ -8,6 +10,19 @@ function Filter(props) {
   return (
     <div className={filterClass}>
       <div className="content-container">
+
+      <div className="input-wrapper-filter">
+          <FontAwesomeIcon
+            className="search-icon-filter"
+            icon={faSearch}
+            color={"black"}
+            size={'1x'}/>
+        <input
+        className="input-filter"
+        type="text"
+        placeholder="Keywords" />
+      </div>
+
         <div className="meal-text">
           <p>Meal ></p>
         </div>
